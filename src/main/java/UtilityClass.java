@@ -13,7 +13,7 @@ import java.math.BigInteger;
 public class UtilityClass 
 {
 
-    private UtilityClass () { }
+    private UtilityClass ()  { }
 
 
     public static String concatWords(String... words) 
@@ -26,6 +26,7 @@ public class UtilityClass
         return buf.toString();
     }
 
+    
   public static String computeFactorial(int number) 
                                                throws IllegalArgumentException 
   {
