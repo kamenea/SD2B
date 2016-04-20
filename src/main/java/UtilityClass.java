@@ -16,11 +16,12 @@ public class UtilityClass
     private UtilityClass ()  { }
 
 
+    //Anna Testing
     public static String concatWords(String... words) 
     {
         StringBuilder buf = new StringBuilder();
         for (String word : words) 
-{
+        {
             buf.append(word);
         }
         return buf.toString();
@@ -31,7 +32,7 @@ public class UtilityClass
                                                throws IllegalArgumentException 
   {
         if (number < 1) 
-{
+        {
             throw new IllegalArgumentException("zero or negative parameter (" + number + ')');
         }
 
